@@ -12,7 +12,7 @@
     </modules>
 
     <properties>
-        <env>alpha</env>
+        <env>release</env>
         <api-version>0.0.1-SNAPSHOT</api-version>
         <spring-version>3.2.12.RELEASE</spring-version>
     </properties>
