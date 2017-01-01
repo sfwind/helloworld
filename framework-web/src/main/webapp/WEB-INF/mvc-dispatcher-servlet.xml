@@ -12,12 +12,12 @@
                            http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
 
     <context:annotation-config/>
-    <context:component-scan base-package="com.dianping.ba" />
+    <context:component-scan base-package="com.iquanwai.framework.web" />
 
     <mvc:annotation-driven>
         <mvc:message-converters register-defaults="false">
             <!-- 避免IE执行AJAX时,返回JSON出现下载文件 -->
-            <bean id="fastJsonHttpMessageConverter" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+            <bean id="fastJsonHttpMessageConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
                 <property name="supportedMediaTypes">
                     <list>
                         <value>text/html;charset=UTF-8</value>
@@ -26,5 +26,25 @@
                 </property>
             </bean>
         </mvc:message-converters>
+        <mvc:argument-resolvers>
+            <bean class="com.iquanwai.framework.web.resolver.LoginUserResolver"/>
+        </mvc:argument-resolvers>
     </mvc:annotation-driven>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          p:prefix="/" p:suffix=".jsp" p:order="1"/>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**" />
+            <mvc:exclude-mapping path="/wx/**" />
+            <mvc:exclude-mapping path="/b/**" />
+            <mvc:exclude-mapping path="/image/**" />
+            <mvc:exclude-mapping path="/js/**" />
+            <mvc:exclude-mapping path="/challenge/**" />
+            <mvc:exclude-mapping path="/fragment/**" />
+            <mvc:exclude-mapping path="/cache/**" />
+            <bean class="com.iquanwai.framework.web.interceptor.WeixinLoginInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>
