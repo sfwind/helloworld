@@ -12,9 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Map;
 
 
-/**
- * Created by justin on 7/23/15.
- */
 @Controller
 @RequestMapping("/hello")
 public class HelloController {

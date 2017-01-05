@@ -1,9 +1,9 @@
 package com.iquanwai.framework.web.aspect;
 
 import com.google.gson.Gson;
-import com.iquanwai.platon.biz.util.ConfigUtils;
-import com.iquanwai.platon.web.resolver.LoginUser;
-import com.iquanwai.platon.web.resolver.LoginUserResolver;
+import com.iquanwai.framework.biz.util.ConfigUtils;
+import com.iquanwai.framework.web.resolver.LoginUser;
+import com.iquanwai.framework.web.resolver.LoginUserResolver;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -19,12 +19,6 @@ import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Map;
 
-/** 
- *  
-* @ClassName: LogAspect  
-* @Description: 日志记录AOP实现  
-*
- */  
 @Aspect
 @Component
 public class LogAspect {

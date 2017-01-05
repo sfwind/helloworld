@@ -5,9 +5,6 @@ import com.typesafe.config.ConfigFactory;
 
 import java.io.File;
 
-/**
- * Created by justin on 16/9/30.
- */
 public class ErrorMessageUtils {
     private static Config config;
     private static Config fileconfig;

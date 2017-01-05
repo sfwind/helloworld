@@ -20,9 +20,6 @@ import com.iquanwai.framework.web.util.CookieUtils;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
-/**
- * Created by tomas on 3/17/16.
- */
 public class LoginUserResolver implements HandlerMethodArgumentResolver {
     @Autowired
     private OAuthService oAuthService;

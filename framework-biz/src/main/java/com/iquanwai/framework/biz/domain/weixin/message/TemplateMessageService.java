@@ -1,8 +1,5 @@
 package com.iquanwai.framework.biz.domain.weixin.message;
 
-/**
- * Created by justin on 16/8/10.
- */
 public interface TemplateMessageService {
     /**
      * 发送模板消息

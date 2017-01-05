@@ -1,8 +1,5 @@
 package com.iquanwai.framework.biz.domain.weixin.signature;
 
-/**
- * Created by yangyuchen on 15-1-30.
- */
 public interface JsSignatureService {
     JsSignature getJsSignature(String url, boolean refresh);
 

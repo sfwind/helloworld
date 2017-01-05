@@ -1,8 +1,5 @@
 package com.iquanwai.framework.biz.exception;
 
-/**
- * Created by justin on 14-7-22.
- */
 public class ErrorConstants {
     // -------------- 错误码 -----------------
     /** 内部错误 */

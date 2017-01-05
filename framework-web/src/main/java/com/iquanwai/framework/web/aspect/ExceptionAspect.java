@@ -13,9 +13,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
-/**
- * Created by justin on 16/12/19.
- */
 @ControllerAdvice
 public class ExceptionAspect {
     @Autowired

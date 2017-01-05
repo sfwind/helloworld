@@ -17,9 +17,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-/**
- * Created by justin on 16/8/12.
- */
 @Repository
 public class FollowUserDao extends DBUtil {
     private Logger logger = LoggerFactory.getLogger(getClass());

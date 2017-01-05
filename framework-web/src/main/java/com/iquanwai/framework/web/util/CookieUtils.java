@@ -8,9 +8,6 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Created by justin on 16/8/26.
- */
 public class CookieUtils {
     /**
      * 添加cookie

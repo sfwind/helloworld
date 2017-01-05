@@ -5,9 +5,6 @@ import org.apache.ibatis.type.Alias;
 
 import java.util.Date;
 
-/**
- * Created by justin on 16/8/10.
- */
 @Data
 @Alias("account")
 public class Account {

@@ -2,9 +2,6 @@ package com.iquanwai.framework.biz.domain.weixin.signature;
 
 import lombok.Data;
 
-/**
- * Created by yangyuchen on 15-1-30.
- */
 @Data
 public class JsSignature {
     private String appId;

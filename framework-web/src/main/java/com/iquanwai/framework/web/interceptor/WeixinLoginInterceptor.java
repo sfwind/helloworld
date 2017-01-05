@@ -10,10 +10,6 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Created by justin on 16/8/26.
- * 验证微信登录态
- */
 public class WeixinLoginInterceptor extends HandlerInterceptorAdapter {
 
     @Override

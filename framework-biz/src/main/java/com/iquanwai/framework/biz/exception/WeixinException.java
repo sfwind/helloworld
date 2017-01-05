@@ -1,8 +1,5 @@
 package com.iquanwai.framework.biz.exception;
 
-/**
- * Created by justin on 8/22/16.
- */
 public class WeixinException extends Exception {
     private String errMsg;
     private int errcode;

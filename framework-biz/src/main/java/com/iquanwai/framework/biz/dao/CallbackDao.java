@@ -14,9 +14,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-/**
- * Created by justin on 16/8/13.
- */
 @Repository
 public class CallbackDao extends DBUtil {
     private Logger logger = LoggerFactory.getLogger(getClass());

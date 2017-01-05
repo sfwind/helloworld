@@ -4,9 +4,6 @@ import lombok.Data;
 
 import java.util.Date;
 
-/**
- * Created by justin on 16/9/3.
- */
 @Data
 public class OperationLog {
     private int id;

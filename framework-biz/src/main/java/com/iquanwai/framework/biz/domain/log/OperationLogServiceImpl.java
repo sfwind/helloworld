@@ -6,9 +6,6 @@ import com.iquanwai.framework.biz.util.ConfigUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- * Created by justin on 16/9/3.
- */
 @Service
 public class OperationLogServiceImpl implements OperationLogService {
     @Autowired

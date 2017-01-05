@@ -1,8 +1,5 @@
 package com.iquanwai.framework.biz.domain.weixin.oauth;
 
-/**
- * Created by justin on 14-7-28.
- */
 public interface OAuthService {
     String ACCESS_TOKEN_COOKIE_NAME = "_act";
     /**

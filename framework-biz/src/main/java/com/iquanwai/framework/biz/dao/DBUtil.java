@@ -16,9 +16,6 @@ import javax.sql.DataSource;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * Created by justin on 16/8/29.
- */
 @Repository
 public class DBUtil {
     @Autowired

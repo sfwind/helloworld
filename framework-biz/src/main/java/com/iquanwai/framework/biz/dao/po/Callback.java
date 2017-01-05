@@ -3,9 +3,6 @@ package com.iquanwai.framework.biz.dao.po;
 import lombok.Data;
 import org.apache.ibatis.type.Alias;
 
-/**
- * Created by justin on 16/8/13.
- */
 @Data
 @Alias("callback")
 public class Callback {

@@ -1,6 +1,5 @@
 package com.iquanwai.framework.web.util;
 
-;
 import com.iquanwai.framework.biz.util.ConfigUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,9 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by justin on 7/23/15.
- */
+
 public class WebUtils {
     public static ResponseEntity<Map<String, Object>> success() {
         Map<String, Object> json = new HashMap<String, Object>();

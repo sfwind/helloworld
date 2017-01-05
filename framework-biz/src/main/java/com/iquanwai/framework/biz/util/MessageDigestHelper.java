@@ -3,9 +3,6 @@ package com.iquanwai.framework.biz.util;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-/**
- * Created by yangyuchen on 15-1-30.
- */
 public class MessageDigestHelper {
     public static String getSHA1String(String s) {
         return getHash(s, "SHA-1").toLowerCase();

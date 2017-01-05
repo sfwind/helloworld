@@ -13,9 +13,6 @@ import java.math.BigDecimal;
 import java.util.*;
 import java.util.regex.Pattern;
 
-/**
- * Created by justin on 16/8/7.
- */
 public class CommonUtils {
     public static String placeholderReplace(String content, Map<String, String> replacer){
         if(StringUtils.isNotEmpty(content) && replacer!=null) {

@@ -27,7 +27,7 @@ public class ConfigUtils {
 
 	private static void loadConfig() {
 		localconfig = ConfigFactory.load("localconfig");
-		config = ConfigFactory.load("framework");
+		config = ConfigFactory.load("app");
 		fileconfig = ConfigFactory.parseFile(new File("/data/config/localconfig"));
 		config = localconfig.withFallback(config);
 		config = fileconfig.withFallback(config);

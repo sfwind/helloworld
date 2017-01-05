@@ -11,9 +11,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.Map;
 
-/**
- * Created by justin on 16/8/10.
- */
 @Service
 public class TemplateMessageServiceImpl implements TemplateMessageService {
     @Autowired

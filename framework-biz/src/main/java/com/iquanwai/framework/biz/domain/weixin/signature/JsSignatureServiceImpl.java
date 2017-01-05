@@ -12,9 +12,6 @@ import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Created by yangyuchen on 15-1-30.
- */
 @Service
 public class JsSignatureServiceImpl implements JsSignatureService {
     @Autowired

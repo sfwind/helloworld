@@ -1,8 +1,5 @@
 package com.iquanwai.framework.biz.util;
 
-/**
- * Created by justin on 16/11/2.
- */
 public class NumberToHanZi {
 
     static String[] units = { "", "十", "百", "千", "万", "十万", "百万", "千万", "亿",

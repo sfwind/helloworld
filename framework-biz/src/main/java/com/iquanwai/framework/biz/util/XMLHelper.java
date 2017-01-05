@@ -8,9 +8,6 @@ import javax.xml.bind.Unmarshaller;
 import java.io.StringReader;
 import java.io.StringWriter;
 
-/**
- * Created by justin on 14-7-24.
- */
 public class XMLHelper {
     public static <T> String createXML(T t){
         StringWriter sw = new StringWriter();

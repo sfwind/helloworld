@@ -2,9 +2,6 @@ package com.iquanwai.framework.biz.domain.weixin.account;
 
 import lombok.Data;
 
-/**
- * Created by justin on 16/9/27.
- */
 @Data
 public class UsersDto {
     private Integer total;
