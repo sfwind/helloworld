@@ -9,6 +9,6 @@
     <bean id="propertyConfigurer"
           class="com.iquanwai.helloworld.biz.util.QuaiwaiPlaceholderConfigurer">
     </bean>
-    <context:component-scan base-package="com.iquanwai.framework.biz"/>
+    <context:component-scan base-package="com.iquanwai.helloworld.biz"/>
     <context:annotation-config/>
 </beans>

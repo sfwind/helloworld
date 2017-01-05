@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
 <Appenders>
-	<File name="appAppender" fileName="/data/applogs/framework-web/logs/app.log" append="true">
-		<PatternLayout pattern="[framework-web]%d %-5p [%c] %m%n"/>
+	<File name="appAppender" fileName="/data/applogs/helloworld-web/logs/app.log" append="true">
+		<PatternLayout pattern="[helloworld-web]%d %-5p [%c] %m%n"/>
 	</File>
 	<Console name="STDOUT" target="SYSTEM_OUT">
-		<PatternLayout pattern="[framework-web]%d %-5p [%c] %m%n"/>
+		<PatternLayout pattern="[helloworld-web]%d %-5p [%c] %m%n"/>
 	</Console>
 </Appenders>
 <Loggers>
