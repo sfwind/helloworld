@@ -7,8 +7,8 @@
     <name>helloworld</name>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>framework-biz</module>
-        <module>framework-web</module>
+        <module>helloworld-biz</module>
+        <module>helloworld-web</module>
     </modules>
 
     <properties>
